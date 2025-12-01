@@ -87,6 +87,7 @@ public class PosServiceImpl implements PosService {
         log.info("Trying to delete POS with ID: {}", id);
         posDataService.delete(id);
         log.info("Deleted POS with ID: {}", id);
+
     }
 
     /**
